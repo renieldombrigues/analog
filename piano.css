@@ -1,0 +1,57 @@
+html,body{
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 0.15em;
+	background-image: url("brown12.png");
+}
+#page{
+	max-width: 940px;
+	min-width: 720px;
+	margin: 30px auto 30px auto;
+	padding: 50px;
+	border: 0px double #000;
+	background-image: linear-gradient(#B06C49, #B06C49);
+}
+#logo{
+	width: 150px;
+	margin: 10px auto 25px auto;
+	margin-left: 350px;
+}
+.renren{
+	border-radius: 5px;
+}
+ul {
+	width: 550px;
+	padding: 50px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+li{
+	font-size: 15px;
+	display: inline;
+	margin: 0px 10px;
+}
+p{
+	font-size: 15px;
+	text-align: center;
+	width: 600px;
+	margin: 20px auto 20px auto;
+	font-weight: normal;
+	background-image: linear-gradient(antiquewhite);
+
+}
+a{
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 10px;
+	background-image: linear-gradient(#B1B1B6, #CDCDD2);
+}
+a:hover, a.on{
+	color: #B06C49;
+	background-color: 874c2c;
+}
